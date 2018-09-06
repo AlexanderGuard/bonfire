@@ -1,0 +1,624 @@
+.container {
+    display: block;
+    width: 100%;
+}
+
+.central-container {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    min-height: 200px;
+    flex-wrap: wrap;
+}
+
+.upper {
+    display: flex;
+    width: 100%;
+    margin-top: -8px;
+    height: 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #CAD9E3;
+}
+
+.slogan {
+    display: flex;
+    width: 80%;
+    color: #7f8c8d;
+    font-style: normal;
+    font-size: 9px;
+    font-family: sans-serif;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 77px;
+}
+
+.cross {
+    display: flex;
+    margin-right: 24px;
+    align-items: center;
+}
+
+.main-options {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 97px;
+    margin-top: -4px;
+}
+
+.menu {
+    display: flex;
+    margin-left: 70px;
+    margin-bottom: 21px;
+}
+
+select {
+    border: none;
+}
+
+.money {
+    display: flex;
+    width: 54px;
+    height: 14px;
+    list-style: none;
+    font-size: 11px;
+}
+
+.logo {
+    display: flex;
+    width: 138px;
+    height: 32px;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-right: -52px;
+}
+
+.purchases {
+    display: flex;
+    width: 124px;
+    height: 40px;
+    font-size: 13px;
+    margin-right: 63px;
+    border: solid 2px;
+    margin-bottom: 18px;
+    list-style: none;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    align-self: center;
+    margin-left: 48px;
+    color: black list-style: none;
+    text-decoration: none;
+}
+
+.main-menu {
+    display: flex;
+    border: solid 1px;
+    height: 68px;
+    width: 100%;
+    font-size: 11px;
+    margin-top: -18px;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    width: 69%;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+
+.home {
+    display: flex;
+    align-self: center;
+    width: 12%;
+    justify-content: left;
+}
+
+.men {
+    display: flex;
+    align-self: center;
+    list-style: none;
+    text-decoration: none;
+    width: 12%;
+    justify-content: left;
+    font-size: 11px;
+}
+
+.women {
+    display: flex;
+    align-self: center;
+    list-style: none;
+    text-decoration: none;
+    width: 12%;
+    font-size: 11px;
+}
+
+.book {
+    display: flex;
+    align-self: center;
+    width: 12%;
+}
+
+.about {
+    display: flex;
+    align-self: center;
+    width: 12%;
+}
+
+.blog {
+    display: flex;
+    align-self: center;
+    width: 12%;
+    justify-content: right;
+}
+
+.features {
+    display: flex;
+    margin-right: 61px;
+    width: 71px;
+}
+
+.like {
+    display: flex;
+    width: 50%;
+    align-self: center;
+    padding-left: 3px;
+    padding-bottom: 2px;
+    height: 15px;
+}
+
+.search {
+    display: flex;
+    width: 50%;
+    align-self: center;
+    padding-left: 25px;
+}
+
+.view-info {
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+}
+
+.img1 {
+    display: flex;
+    width: 656px;
+    height: 682px;
+    background-color: #CAD9E3;
+    margin-left: -0.8em;
+    margin-top: 2.4em;
+}
+
+.img2 {
+    display: flex;
+    background-color: #CAD9E3;
+    height: 170px;
+    width: 145px;
+    margin-left: -0.9em;
+    margin-top: 1.4em;
+}
+
+.img3 {
+    display: flex;
+    background-color: #CAD9E3;
+    height: 170px;
+    width: 145px;
+    margin-left: 9.7em;
+    margin-top: -10.6em;
+}
+
+.img4 {
+    display: flex;
+    background-color: #CAD9E3;
+    height: 170px;
+    width: 145px;
+    margin-left: 20.5em;
+    margin-top: -10.7em;
+}
+
+.img5 {
+    display: flex;
+    background-color: #CAD9E3;
+    height: 170px;
+    width: 145px;
+    margin-left: 31.1em;
+    margin-top: -10.6em;
+}
+
+a {
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+i {
+    font-size: 1.5em;
+}
+
+.main-info {
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+}
+
+.options {
+    display: flex;
+    width: 49%;
+    flex-direction: column;
+    padding-right: 22em;
+}
+
+.BreadWoman {
+    display: flex;
+    width: 46%;
+    padding-left: 6.9em;
+    padding-top: 3em;
+}
+
+.review {
+    display: flex;
+    margin-top: 2.3em;
+    width: 100%;
+    margin-left: 6em;
+    height: 212px;
+    flex-wrap: wrap;
+}
+
+.name {
+    width: 100%;
+    font-size: x-large;
+    padding-left: 0.3em;
+    font-weight: bold;
+}
+
+.stars {
+    display: flex;
+    height: 3em;
+    width: 30%;
+    margin-bottom: 8.5em;
+    align-items: center;
+}
+
+.block {
+    display: flex;
+    width: 32%;
+    height: 3em;
+    align-items: center;
+    padding-top: 0.2em;
+}
+
+.block2 {
+    display: flex;
+    width: 35%;
+    height: 4em;
+    font-size: 0.8em;
+    align-items: center;
+    padding-top: 0.3em;
+}
+
+.price {
+    display: flex;
+    width: 41%;
+    height: 1em;
+    font-size: 1.7em;
+    margin-top: -4.8em;
+    padding-left: 0.3em;
+}
+
+.availability {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 5em;
+    margin-top: -4.9em;
+    padding-left: 0.3em;
+}
+
+.line {
+    display: flex;
+    width: 100%;
+    height: 1em;
+}
+
+.line2 {
+    display: flex;
+    width: 100%;
+    height: 1em;
+}
+
+.line3 {
+    display: flex;
+    width: 100%;
+    height: 1em;
+    padding-bottom: 0.5em;
+}
+
+.buy {
+    display: flex;
+    flex-wrap: wrap;
+    width: 176%;
+    height: 12em;
+    margin-top: 0.3em;
+    margin-left: 5.8em;
+    padding-top: 0.9em
+}
+
+.description {
+    display: flex;
+    width: 100%;
+    height: 4em;
+    padding-left: 0.4em;
+    line-height: 1.3em;
+}
+
+.details {
+    display: flex;
+    width: 110%;
+    padding-bottom: 2em;
+    margin-left: -1em;
+    line-height: 1.5em;
+    height: 48%;
+}
+
+.characteristics {
+    display: flex;
+    width: 176%;
+    flex-wrap: wrap;
+    height: 5.5em;
+    margin-left: 5.8em;
+    margin-top: 0.1em;
+}
+
+.color {
+    display: flex;
+    width: 38%;
+    padding-top: 0.6em;
+    padding-left: 0.6em;
+}
+
+.TextColor {
+    display: flex;
+    height: 1em;
+}
+
+.ChangeColor {
+    display: flex;
+    border: solid 1px;
+    height: 2.6em;
+    margin-top: 2.1em;
+    margin-left: -4.3em;
+    align-self: center;
+    padding-left: 0.5em;
+    width: 90%;
+}
+
+.size {
+    display: flex;
+    width: 38%;
+}
+
+.TextSize {
+    display: flex;
+    height: 1em;
+    width: 20%;
+    margin-left: 0.3em;
+    margin-top: 0.6em;
+}
+
+.ChangeSize {
+    display: flex;
+    border: solid 1px;
+    height: 2.6em;
+    margin-top: 2.8em;
+    margin-left: -2.8em;
+    align-self: center;
+    padding-left: 0.6em;
+    width: 90%;
+}
+
+.qty {
+    display: flex;
+    width: 19%;
+}
+
+.TextQty {
+    display: flex;
+    height: 1em;
+    width: 40%;
+    margin-left: 0.4em;
+    margin-top: 0.6em;
+    padding-left: 0.5em;
+}
+
+.ChangeQty {
+    display: flex;
+    border: solid 1px;
+    height: 2.6em;
+    margin-top: 2.8em;
+    margin-left: -2.8em;
+    align-self: center;
+    padding-left: 0.6em;
+    width: 75%;
+}
+
+.BreadSelection {
+    display: flex;
+    width: 46%;
+    margin-left: 5.8em;
+    margin-top: 1.4em;
+}
+
+.BreadText {
+    padding-left: 0.6em;
+    padding-top: 0.1em;
+    display: flex;
+    font-size: 0.8em;
+    height: 1.8em;
+    align-items: center;
+    text-decoration: underline;
+}
+
+.add {
+    display: flex;
+    width: 209%;
+    height: 6em;
+    margin-left: 5em;
+    margin-top: 0.5em;
+    align-items: center;
+}
+
+.cart {
+    display: flex;
+    border: solid 1px;
+    height: 3.3em;
+    width: 37.3%;
+    align-items: center;
+    margin-top: 0.3em;
+    margin-left: 1.3em;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.cart a {
+    color: antiquewhite;
+}
+
+.AddToCart {
+    display: flex;
+    border: solid 1px;
+    height: 1.5em;
+    width: 42%;
+    font-size: 0.7em;
+    align-items: center;
+    padding-top: 0.1em;
+    padding-left: 1.3em;
+}
+
+.wishlist {
+    display: flex;
+    border: solid 1px;
+    height: 3.3em;
+    width: 38.6%;
+    align-items: center;
+    align-self: center;
+    margin-top: 0.3em;
+    margin-left: 1.1em;
+}
+
+.AddToWishlist {
+    display: flex;
+    height: 2em;
+    font-size: 0.7em;
+    align-items: center;
+    width: 60%;
+    margin-left: 3em;
+    padding-top: 0.3em;
+    padding-left: 1.5em;
+}
+
+.WishLike {
+    display: flex;
+    font-size: 0.9em;
+    padding-right: 0.6em;
+}
+
+.links {
+    display: flex;
+    border: solid 1px;
+    height: 6.5em;
+    width: 189%;
+    margin-left: 5em;
+    margin-top: 0.3em;
+}
+
+.LinksText {
+    display: flex;
+    height: 3em;
+    width: 19%;
+    align-items: center;
+    align-self: center;
+    font-size: 0.8em;
+    margin-bottom: 1.8em;
+    margin-left: 0.5em;
+    padding-left: 1.1em;
+}
+
+.social {
+    display: flex;
+    height: 2.5em;
+    width: 30%;
+    align-items: center;
+    align-self: center;
+    margin-bottom: 1.5em;
+    margin-left: 0.7em;
+}
+
+.tweet {
+    display: flex;
+    height: 2.5em;
+    width: 18%;
+    align-items: center;
+    align-self: center;
+    margin-bottom: 1.5em;
+    margin-left: 0.1em;
+}
+
+.pin {
+    display: flex;
+    height: 2.5em;
+    width: 18%;
+    align-items: center;
+    align-self: center;
+    margin-bottom: 1.5em;
+    margin-left: 0.3em;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    min-height: 150px;
+    flex-wrap: wrap;
+    margin-top: 2.3em;
+}
+
+.lower {
+    display: flex;
+    width: 100%;
+    border: solid 1px;
+    height: 5.25em;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: center;
+}
+
+.end {
+    margin-bottom: 1.1em;
+    margin-left: 4.4em;
+    display: flex;
+    font-size: 0.9em;
+    padding-left: 3em;
+    width: 40%;
+    height: 3em;
+    align-items: center;
+}
