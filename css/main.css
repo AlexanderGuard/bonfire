@@ -98,74 +98,75 @@
     /* Legacy iOS */
 }
 
+body {
+    margin: 0px;
+    width: 100%;
+
+}
+
 .container {
-    display: block;
     width: 100%;
 }
 
 .central-container {
     display: flex;
-    width: 70%;
-    justify-content: center;
-    flex-wrap: wrap;
+    width: 1150px;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
+
 header {
-    display: flex;
-    width: 100%;
     min-height: 200px;
-    flex-wrap: wrap;
 }
 
 .upper {
-    display: flex;
     width: 100%;
-    margin-top: -8px;
     height: 30px;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: #CAD9E3;
+    background-color: #DBE0E4;
+}
+
+.upper .central-container {
+    justify-content: space-between;
+
 }
 
 .slogan {
-    display: flex;
-    width: 80%;
     color: #8a9090;
     font-size: 10px;
     font-family: lato;
-    font-weight: normal;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-left: 10.7em;
 }
 
 .cross {
-    display: flex;
-    width: 1%;
-    height: 1em;
-    margin-top: 0.45em;
-    margin-right: 5.25em;
-    background: url(../img/cancel.png) no-repeat 0em;
+    width: 2%;
+    height: 30px;
+    background: url(../img/cancel.png) no-repeat 0px;
+    justify-self: flex-end;
 }
 
 .main-options {
     display: flex;
-    width: 100%;
+    height: 98px;
+}
+
+.main-options .central-container {
     justify-content: space-between;
-    align-items: center;
-    height: 97px;
-    margin-top: -4px;
 }
 
 .menu {
     display: flex;
-    width: 10%;
-    height: 2em;
-    margin-bottom: 0.7em;
-    margin-left: 3.970em;
-    align-items: center;
-    justify-content: center;
-    background: url(../img/usa.jpg) no-repeat 1.1em;
+    width: 81px;
+    height: 61px;
+    align-items: flex-end;
+
+}
+
+.flag {
+    width: 37px;
+    height: 14px;
+    background: url(../img/usa.jpg) no-repeat 0;
+    margin-bottom: 5px;
+
 }
 
 select {
@@ -173,233 +174,198 @@ select {
 }
 
 .money {
-    display: flex;
-    width: 54px;
-    height: 2em;
-    list-style: none;
-    font-size: 0.750em;
+    width: 45px;
+    height: 23px;
+    margin-right: 14px;
+    font-size: 11px;
     font-family: lato;
     font-weight: 600;
-    padding-bottom: 0.1em;
+    padding-bottom: 2px;
 }
 
 .logo {
-    display: flex;
-    width: 138px;
+    width: 141px;
     height: 32px;
     font-size: 33px;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
+    letter-spacing: 0.8px;
     font-weight: 900;
-    align-items: flex-end;
-    margin-bottom: 0.125em;
-    margin-left: 0.4em;
-    letter-spacing: 0.015em;
+    align-self: center;
+    margin-bottom: 7px;
+    margin-left: 39px;
 }
 
 .purchases {
     display: flex;
-    width: 9.3%;
-    height: 3.3em;
-    font-size: 12px;
-    border: solid 2px #d2c6be;
-    list-style: none;
-    text-decoration: none;
-    justify-content: center;
+    width: 124px;
+    height: 40px;
+    border: solid 2px #E1E1E1;
+    align-self: center;
+    margin-right: 12px;
+}
+
+.PurchButton {
+    display: flex;
+    font-size: 11px;
     align-items: center;
-    margin-bottom: 1em;
-    margin-right: 8.6em;
-    font-family: lato;
-    font-weight: 600;
-    letter-spacing: 0.01em;
+    margin-left: 38px;
+    letter-spacing: 1.2px;
+
 }
 
 .list {
-    display: flex;
     align-self: center;
-    height: 1.3em;
-    font-size: 0.65em;
-    margin-right: 6.5em;
+    font-size: 10px;
+    width: 29px;
 }
 
 .main-menu {
     display: flex;
     height: 68px;
     width: 100%;
-    margin-top: -1em;
-    border-top: 1px solid #d0d0d0;
-    border-bottom: 1px solid #d0d0d0;
-    justify-content: space-around;
+    border-top: 1px solid #E1E1E1;
+    border-bottom: 1px solid #E1E1E1;
+    justify-content: space-between;
 }
 
 .nav {
     display: flex;
-    list-style: none;
-    text-decoration: none;
-    width: 50%;
-    height: 4.3em;
-    font-size: 0.7em;
-    align-self: center;
+    width: 55%;
+    height: 66px;
+    font-size: 11px;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 66px;
 }
 
 .home {
-    display: flex;
-    align-self: center;
-    width: 12%;
-    margin-left: 4.9em;
+    width: 40px;
     font-family: lato;
     font-weight: 700;
-    letter-spacing: 0.07em;
+    letter-spacing: 1px;
+    height: 34px;
+    margin-left: 10px;
 }
 
 .men {
-    display: flex;
-    align-self: center;
-    list-style: none;
-    text-decoration: none;
-    width: 8%;
-    font-size: 1em;
-    margin-left: 0.6em;
+    width: 50px;
+    height: 35px;
+    font-size: 11px;
     font-family: lato;
     font-weight: 700;
-    letter-spacing: 0.04em;
+    letter-spacing: 1px;
+    margin-left: 10px;
 }
 
 .women {
-    display: flex;
-    align-self: center;
-    list-style: none;
-    text-decoration: none;
-    width: 11.3%;
-    font-size: 1em;
-    margin-left: 3.8em;
+    width: 80px;
+    height: 35px;
+    font-size: 11px;
     font-family: lato;
     font-weight: 700;
-    letter-spacing: 0.07em;
+    letter-spacing: 1px;
+    margin-left: 16px;
 }
 
 .book {
-    display: flex;
-    align-self: center;
-    width: 12%;
-    margin-left: 4em;
+    width: 72px;
+    height: 35px;
     font-family: lato;
     font-weight: 700;
-    letter-spacing: 0.05em;
+    letter-spacing: 1px;
+    margin-left: 7px;
 }
 
 .about {
-    display: flex;
-    align-self: center;
-    width: 12%;
-    margin-left: 3.5em;
+    width: 62px;
+    height: 35px;
     font-family: lato;
     font-weight: 700;
-    letter-spacing: 0.05em;
+    letter-spacing: 1px;
+    margin-left: 13px;
 }
 
 .blog {
-    display: flex;
-    align-self: center;
-    width: 12%;
-    margin-left: 1.1em;
+    width: 37px;
+    height: 35px;
     font-family: lato;
     font-weight: 700;
-    letter-spacing: 0.06em;
+    letter-spacing: 1px;
+    margin-right: 38px;
 }
 
 .features {
     display: flex;
-    width: 71px;
-    font-size: 0.65em;
-    margin-top: 0.1em;
-    margin-right: 1.9em;
+    width: 70px;
+    font-size: 10px;
+    height: 19px;
+    align-self: center;
+    margin-right: 8px;
 }
 
 .like {
     display: flex;
-    width: 44%;
-    margin-top: 2.2em;
-    height: 2.6em;
-    padding-top: 0.2em;
-    margin-left: 0.3em;
-    border-right: 1px dotted #d0d0d0;
+    width: 34px;
+    height: 17px;
+    border-right: 1px dotted #E1E1E1;
 }
 
 .search {
     display: flex;
-    width: 24%;
-    margin-top: 2.5em;
-    margin-left: 1.4em;
-    height: 1.3em;
+    width: 29px;
+    padding-top: 1px;
+    padding-left: 17px;
 }
 
 .view-info {
-    width: 45%;
+    width: 656px;
 }
 
 .images {
-    display: flex;
-    flex-direction: column;
+    margin-top: 46px;
 }
 
 .img-big {
-    display: flex;
     width: 656px;
     height: 682px;
-    background-color: #e3e5e6;
-    margin-left: 2.2em;
-    margin-top: 2.4em;
-    border: solid 0.5px #d0d0d0;
+    border: solid 0.5px #E1E1E1;
+    background: url(../img/2.jpg) no-repeat 0px;
 }
 
 .img-small {
     display: flex;
-    height: 14em;
-    width: 161.7%;
-    flex-direction: inherit;
-    margin-left: 1.5em;
-    flex-wrap: wrap;
+    height: 228px;
+    width: 656px;
+    justify-content: space-between;
 }
 
 .img {
-    display: flex;
-    background-color: #e3e5e6;
-    height: 10.6em;
+    height: 170px;
     width: 145px;
-    margin-left: 0.625em;
-    margin-top: 1.3em;
-    border: solid 0.5px #d0d0d0;
+    margin-top: 22px;
+    border: solid 0.5px #E1E1E1;
+}
+
+.img:last-child {
+    margin-right: 1px;
+}
+
+.img1 {
+    background: url(../img/22.jpg) no-repeat 0px;
 }
 
 .img2 {
-    display: flex;
-    background-color: #e3e5e6;
-    height: 10.6em;
-    width: 145px;
-    margin-left: 0.9em;
-    margin-top: 1.3em;
-    border: solid 0.5px #d0d0d0;
+    background: url(../img/11.jpg) no-repeat 0px;
 }
 
 .img3 {
-    display: flex;
-    background-color: #e3e5e6;
-    height: 10.6em;
-    width: 145px;
-    margin-left: 1.1em;
-    margin-top: 1.3em;
-    border: solid 0.5px #d0d0d0;
+    background: url(../img/33.jpg) no-repeat 0px;
 }
 
 .img4 {
-    display: flex;
-    background-color: #e3e5e6;
-    height: 10.6em;
-    width: 145px;
-    margin-left: 1em;
-    margin-top: 1.3em;
-    border: solid 0.5px #d0d0d0;
+    background: url(../img/44.jpg) no-repeat 0px;
 }
+
 
 a {
     color: black;
@@ -412,515 +378,445 @@ i {
 }
 
 .main-info {
-    display: flex;
-    width: 45%;
+    width: 494px;
 }
 
 .options {
-    display: flex;
-    flex-direction: column;
-    margin-left: 12em;
+    width: 494px;
 }
 
 .back {
-    display: flex;
-    width: 2%;
-    height: 1em;
-    font-size: 0.4em;
-    padding-top: 3.5em;
-    margin-left: -0.8em;
+    font-size: 5px;
+    width: 8px;
 }
 
 .BreadWoman {
     display: flex;
-    width: 60%;
-    margin-left: 6em;
-    margin-top: 2em;
-    padding-left: 2.1em;
-    padding-top: 0.25em;
+    width: 110px;
+    height: 20px;
     font-family: lato;
-    font-size: 0.9em;
+    font-size: 13px;
+    align-items: center;
+    letter-spacing: 0.5px;
+    margin-left: 19px;
 }
 
 .BreadWoman a {
-    color: #5e5ebb;
-    margin-left: -0.1em;
+    color: #6C8A92;
 }
 
 .review {
-    display: flex;
-    margin-top: 1em;
-    width: 151%;
-    margin-left: 6em;
-    height: 212px;
-    flex-wrap: wrap;
+    width: 315px;
+    height: 494px;
+    margin-top: 54px;
 }
 
 .name {
-    width: 100%;
-    margin-left: 0.5em;
-    margin-top: 0.35em;
+    width: 280px;
+    height: 30px;
     font-family: roboto;
     font-weight: 900;
-    font-size: 1.5em;
+    font-size: 24px;
+    margin-top: 37px;
+    margin-left: 19px;
+}
+
+.HeadBlock {
+    display: inline-flex;
+    height: 49px;
+    width: 315px;
+    margin-left: 11px;
 }
 
 .stars {
+    height: 25px;
+    width: 90px;
     display: flex;
-    height: 3em;
-    width: 20%;
-    margin-bottom: 8.5em;
-    margin-left: 0.15em;
-    align-items: center;
+    align-self: center;
 }
 
-.FiveStars {
-    display: flex;
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: center;
 }
 
-.OneStar {
-    display: flex;
+.rating>span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+}
+
+.rating>span:hover,
+.rating>span:hover~span {
+    color: transparent;
+}
+
+.rating>span:hover:before,
+.rating>span:hover~span:before {
+    content: "\2605";
+    position: absolute;
+    left: 0;
+    color: gold;
 }
 
 .block {
-    display: flex;
-    width: 17.7%;
-    height: 1em;
-    border-right: solid 1px;
+    width: 82px;
+    height: 18px;
+    border-right: solid 1px #E1E1E1;
     font-family: lato;
     font-weight: 200;
-    font-size: 0.9em;
-    margin-top: 1.15em;
-    margin-left: 0.2em;
-    letter-spacing: -0.02em;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    align-self: center;
+    margin-bottom: 2px;
 }
 
 .block2 {
-    display: flex;
-    width: 24%;
-    height: 4em;
-    font-size: 0.7em;
+    width: 93px;
+    height: 20px;
+    font-size: 12px;
     font-family: lato;
     font-weight: 700;
-    align-items: center;
-    padding-top: 0.3em;
     text-decoration: underline;
-    margin-left: 1.4em;
-    letter-spacing: 0.03em;
+    align-self: center;
+    margin-top: 4px;
+    padding-left: 15px;
 }
 
 .price {
-    display: flex;
-    width: 41%;
-    height: 1.2em;
-    font-size: 1.5em;
+    font-size: 25px;
     font-family: lato;
     font-weight: 700;
-    margin-top: -5.4em;
-    padding-left: 0.5em;
-    color: #8c8ebb;
+    color: #6C8A92;
+    margin-top: 3px;
+    margin-left: 18px;
 }
 
 .availability {
     display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 5.6em;
-    margin-top: -5.6em;
-    padding-left: 0.8em;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 19px;
+    flex-direction: column;
 }
 
 .line {
     display: flex;
-    letter-spacing: 0.01em;
-    width: 100%;
-    height: 1em;
+    height: 37px;
+    width: 152px;
     font-family: lato;
     font-weight: 700;
-    font-size: 0.9em;
-    margin: -1px 0px 0px 0px;
-    letter-spacing: 0.0020em;
+    font-size: 14px;
+    letter-spacing: 0.3px;
 }
 
 .line2 {
     display: flex;
-    width: 100%;
-    height: 1em;
+    width: 160px;
+    height: 23px;
     font-family: lato;
     font-weight: 700;
-    font-size: 0.9em;
-    margin-top: -1.1em;
-    letter-spacing: 0.0020em;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    align-items: center;
 }
 
 .line3 {
-    display: flex;
-    width: 100%;
-    height: 1em;
+    width: 210px;
+    height: 45px;
     font-family: lato;
     font-weight: 600;
-    font-size: 0.9em;
-    margin-top: -1.2em;
-    letter-spacing: 0.0030em;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 0px;
 }
 
 .Fashion {
-    letter-spacing: 0.030em;
+    letter-spacing: 0.5px;
 }
 
 .Hood {
-    letter-spacing: 0.030em;
-    padding-left: 0.2em;
+    letter-spacing: 0.2px;
+    padding-left: 5px;
 }
 
 .Classic {
-    letter-spacing: 0.020em;
-    padding-left: 0.2em;
+    letter-spacing: 0.7px;
+    padding-left: 4px;
 }
 
 .line a {
-    color: #5e5ebb;
-    margin-left: 0.250em;
+    color: #6C8A92;
     font-weight: 500;
-    padding-bottom: 0em;
-    letter-spacing: 0.0090em;
+    letter-spacing: 0.6px;
+    padding-left: 1.1px;
 }
 
 .line2 a {
-    color: #5e5ebb;
-    margin-left: 0.3em;
+    color: #6C8A92;
     font-weight: 500;
 }
 
 .line3 a {
-    color: #5e5ebb;
-    margin-left: 0.1em;
+    color: #6C8A92;
     font-weight: 500;
 }
 
 .buy {
     display: flex;
     flex-wrap: wrap;
-    width: 176%;
-    height: 12em;
-    margin-top: 0.3em;
-    margin-left: 5.8em;
-    padding-top: 0.9em
+    width: 500px;
+    height: 200px;
 }
 
 .description {
-    display: flex;
-    width: 100%;
-    height: 4.5em;
-    padding-left: 1.1em;
-    padding-top: 0.1em;
-    margin-top: 0.5em;
-    line-height: 1.5em;
+    width: 465px;
+    height: 65px;
     font-family: lato;
-    font-weight: 400;
-    font-size: 0.9em;
-    letter-spacing: 0.013em;
+    font-size: 13px;
+    letter-spacing: 0.8px;
+    margin-left: 20px;
+    line-height: 21px;
+    margin-top: 10px;
 }
 
 .details {
-    display: flex;
-    width: 110%;
-    padding-bottom: 1.3em;
-    margin-left: -0.6em;
-    line-height: 1.7em;
-    height: 48%;
+    width: 286px;
+    height: 108px;
     font-family: lato;
-    font-weight: 400;
-    font-size: 0.9em;
-    letter-spacing: 0.013em;
+    font-size: 13px;
+    letter-spacing: 0.8px;
+    line-height: 24px;
+    margin-bottom: 9px;
 }
 
 .characteristics {
     display: flex;
-    width: 176%;
-    height: 5.5em;
-    margin-left: 6.1em;
-    margin-top: 0.9em;
+    width: 477px;
+    height: 108px;
+    margin-left: 19px;
 }
 
 .color {
-    display: flex;
-    width: 37.3%;
-    padding-top: 0.7em;
-    padding-left: 0.8em;
+    width: 176px;
+    height: 85px;
 }
 
 .TextColor {
-    display: flex;
-    height: 1.3em;
+    height: 20px;
     font-weight: 700;
     font-family: lato;
-    font-size: 0.9em;
-    width: 30%;
-    margin-left: -0.1em;
-    margin-top: -0.1em;
+    font-size: 14px;
+    width: 55px;
+    letter-spacing: 0.7px;
+    margin-top: 2px;
 }
 
 .ChangeColor {
-    display: flex;
-    border: solid 1px;
-    height: 2.45em;
-    margin-top: 1.7em;
-    margin-left: -4.1em;
-    align-self: center;
-    padding-left: 0.5em;
-    width: 86%;
+    height: 35px;
+    width: 168px;
     font-weight: 100;
     font-family: lato;
-    font-size: 0.9em;
-    border: solid 1px #d0d0d0;
+    margin-top: 14px;
+    font-size: 14px;
+    border: solid 1px #E1E1E1;
+    padding-left: 9px;
 }
 
 .size {
-    display: flex;
-    width: 37.3%;
-    margin-top: 0em;
-    margin-left: -0.1em;
+    width: 176px;
+    height: 85px;
 }
 
 .TextSize {
-    display: flex;
-    height: 1em;
-    width: 16%;
+    height: 20px;
+    width: 40px;
     font-weight: 700;
     font-family: lato;
-    font-size: 0.9em;
-    padding-top: 0.7em;
-    letter-spacing: 0.020em;
+    font-size: 14px;
+    margin-left: 21px;
+    letter-spacing: 0.7px;
+    margin-top: 2px;
 }
 
 .ChangeSize {
-    display: flex;
-    border: solid 1px #d0d0d0;
-    height: 2.4em;
-    margin-top: 2.5em;
-    margin-left: -2.15em;
-    align-self: center;
-    padding-left: 0.5em;
-    width: 86%;
+    border: solid 1px #E1E1E1;
+    height: 35px;
+    width: 168px;
     font-weight: 100;
     font-family: lato;
-    font-size: 0.9em;
+    margin-top: 14px;
+    font-size: 14px;
+    margin-left: 20px;
+    padding-left: 9px;
 }
 
 .qty {
-    display: flex;
-    width: 19%;
-    margin-left: -0.5em;
-    margin-top: 0.7em;
+    width: 73px;
+    height: 85px;
+    margin-left: 40px;
+    margin-top: 2px;
 }
 
 .TextQty {
-    display: flex;
-    height: 1em;
-    width: 40%;
-    padding-left: 0.6em;
+    height: 20px;
+    width: 100px;
     font-weight: 700;
     font-family: lato;
-    font-size: 0.9em;
-    padding-top: -0em;
-    letter-spacing: 0.020em;
+    font-size: 14px;
+    letter-spacing: 0.1px;
 }
 
 .ChangeQty {
-    display: flex;
-    border: solid 1px #d0d0d0;
-    height: 2.44em;
-    margin-top: 1.7em;
-    margin-left: -2.75em;
-    align-self: center;
-    padding-left: 0.7em;
-    padding-top: 0.5em;
-    width: 70%;
-    font-weight: 100;
+    height: 35px;
+    width: 70px;
     font-family: lato;
-    font-size: 0.9em;
+    margin-top: 14px;
+    padding-left: 11px;
+    padding-top: 8px;
+    border: solid 1px #E1E1E1;
 }
 
 .BreadSelection {
-    display: flex;
-    width: 46%;
-    margin-left: 6.2em;
-    margin-top: 1.5em;
+    width: 130px;
+    height: 25px;
+    margin-left: 20px;
 }
 
 .BreadText {
-    display: flex;
-    height: 1.8em;
-    align-items: center;
+    height: 20px;
     text-decoration: underline;
     font-weight: 700;
     font-family: lato;
-    font-size: 0.7em;
-    margin-top: 0.15em;
-    margin-left: 0.9em;
-    letter-spacing: 0.4px;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    padding-top: 1px;
 }
 
 .add {
     display: flex;
-    width: 209%;
-    height: 6em;
-    margin-left: 5em;
-    margin-top: 0.5em;
-    align-items: center;
+    width: 550px;
+    height: 90px;
+    margin-left: 19px;
+    align-items: flex-end;
 }
 
 .cart {
     display: flex;
-    height: 3.4em;
-    width: 34.9%;
-    align-items: center;
-    margin-top: 1em;
-    margin-left: 1.8em;
-    justify-content: space-around;
+    height: 55px;
+    width: 216px;
     background-color: black;
-    letter-spacing: 0.3px;
+    align-items: center;
+    margin-bottom: 6px;
 }
 
 .cart a {
-    color: antiquewhite;
+    color: white;
 }
 
 .AddToCart {
-    display: flex;
-    height: 1.5em;
-    width: 42%;
-    font-size: 0.7em;
-    align-items: center;
-    padding-top: 0.1em;
-    padding-left: 1.2em;
+    height: 20px;
+    width: 90px;
+    font-size: 11px;
+    margin-bottom: 13px;
+    margin-left: 70px;
+    letter-spacing: 0.6px;
 }
 
 .wishlist {
     display: flex;
-    border: solid 1px #d0d0d0;
-    height: 3.3em;
-    width: 36%;
+    border: solid 1px #E1E1E1;
+    height: 53px;
+    width: 224px;
     align-items: center;
-    align-self: center;
-    margin-top: 1em;
-    margin-left: 1.2em;
+    justify-content: center;
+    margin-left: 20px;
+    margin-bottom: 6px;
 }
 
 .AddToWishlist {
     display: flex;
-    height: 2em;
-    font-size: 0.7em;
-    align-items: center;
-    width: 60%;
-    margin-left: 3em;
-    padding-top: 0.3em;
-    padding-left: 1.5em;
+    height: 20px;
+    font-size: 11px;
+    width: 126px;
+    margin-top: 10px;
+    letter-spacing: 0.6px;
+    margin-left: 5px;
 }
 
 .WishLike {
-    display: flex;
-    font-size: 0.9em;
-    padding-right: 0.6em;
+    font-size: 9px;
+    padding-right: 6px;
 }
 
 .ForLink {
-    display: flex;
-    width: 169%;
-    margin-left: 5.5em;
-    height: 6em;
+    width: 487px;
+    height: 54px;
+    margin-top: 32px;
 }
 
 .links {
     display: flex;
-    height: 3.225em;
-    width: 100%;
-    margin-left: 1.3em;
-    margin-top: 1.6em;
-    border-top: 1px solid #d0d0d0;
-    border-bottom: 1px solid #d0d0d0;
+    width: 464px;
+    height: 52px;
+    border-top: 1px solid #E1E1E1;
+    margin-left: 17px;
+    border-bottom: 1px solid #E1E1E1;
 }
 
 .LinksText {
-    display: flex;
-    height: 1em;
-    width: 19%;
-    align-items: center;
-    align-self: center;
-    margin-bottom: 0.1em;
-    margin-left: 0.em;
-    letter-spacing: 0.35px;
+    height: 20px;
+    width: 70px;
+    letter-spacing: 0.6px;
     font-weight: 700;
     font-family: lato;
-    font-size: 0.7em;
+    font-size: 11px;
+    margin-top: 19px;
+    margin-left: 2px;
 }
 
 .social {
-    display: flex;
-    height: 2.5em;
-    width: 30%;
-    align-items: center;
+    height: 40px;
+    width: 171px;
     align-self: center;
-    margin-bottom: 0.em;
-    margin-left: 2.3em;
-    background: url(../img/social.jpg) no-repeat 0em;
+    margin-left: 37px;
+    background: url(../img/social.jpg) no-repeat 23px;
 }
 
 .tweet {
-    display: flex;
-    height: 2.5em;
-    width: 19%;
-    align-items: center;
+    height: 40px;
+    width: 93px;
     align-self: center;
-    margin-bottom: 0em;
-    margin-left: 0.1em;
-    background: url(../img/tweet.jpg) no-repeat 0em;
+    background: url(../img/tweet.jpg) no-repeat 0px;
 }
 
 .pin {
-    display: flex;
-    height: 2.5em;
-    width: 19%;
-    align-items: center;
+    height: 40px;
+    width: 95px;
     align-self: center;
-    margin-bottom: 0em;
-    margin-left: 0.7em;
-    background: url(../img/pin.jpg) no-repeat 0em;
+    background: url(../img/pin.jpg) no-repeat 10px;
 }
 
 footer {
-    display: flex;
-    width: 104%;
-    min-height: 150px;
-    flex-wrap: wrap;
-    margin-left: -1em;
-    margin-top: 0.2em;
+    width: 100%;
 }
 
 .lower {
     display: flex;
     width: 100%;
-    border-top: 1px solid #d0d0d0;
-    border-bottom: 1px solid #d0d0d0;
-    height: 5.25em;
-    align-self: flex-end;
+    border-top: 1px solid #E1E1E1;
+    height: 64px;
     justify-content: center;
-    align-items: center;
+    margin-top: 64px;
+    padding-top: 3px;
 }
 
 .end {
-    margin-bottom: 1em;
-    margin-left: 6.6em;
-    display: flex;
-    font-size: 0.9em;
-    padding-left: 3.225em;
-    width: 40%;
-    height: 3em;
-    align-items: center;
-    font-weight: 400;
-    font-size: 0.83em;
+    font-size: 13px;
     font-family: lato;
-    letter-spacing: 0.001em;
     color: #d0d0d0;
+    align-self: center;
+    letter-spacing: 0.1px;
+    margin-right: 22px;
 }
